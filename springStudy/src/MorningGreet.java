@@ -1,0 +1,7 @@
+/*인터페이스 연습*/
+public class MorningGreet implements Greet {
+    @Override
+    public void greeting() {
+        System.out.println("좋은 아침입니다!!");
+    }
+}
